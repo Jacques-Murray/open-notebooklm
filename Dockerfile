@@ -13,8 +13,8 @@ COPY . /app
 RUN python -m pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Make port 80 available to the world outside this container
-EXPOSE 80
+# Make port 7860 available to the world outside this container
+EXPOSE 7860
 
 # Define environment variable
 ENV FIREWORKS_API_KEY=""
